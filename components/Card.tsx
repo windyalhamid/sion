@@ -1,7 +1,7 @@
 const Card = () => (
   <div className="card w-full bg-base-100 shadow-xl">
     <figure>
-      <img src="https://picsum.photos/500/200" alt="" />
+      <img src="https://picsum.photos/500/300" alt="" />
     </figure>
     <div className="card-body">
       <h2 className="card-title">Peresmian Gereja Jemaat Sion</h2>

@@ -7,11 +7,11 @@ interface LayoutProps {
 }
 
 const Layout: React.FC<LayoutProps> = ({ children }) => (
-  <div className="min-h-screen">
+  <>
     <Navbar />
-    <div>{children}</div>
+    {children}
     <Footer />
-  </div>
+  </>
 );
 
 export default Layout;

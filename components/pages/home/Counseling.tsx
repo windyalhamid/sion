@@ -10,6 +10,7 @@ const Counseling = () => {
       <div className="text-center">
         <p className="py-6 text-2xl">
           Konseling dengan Psikolog Profesional, Berempati, dan Non-Judgmental.
+          <br />
           Bicarakan isi hatimu, temukan jalan keluar atas masalahmu.
         </p>
         <button className="btn btn-primary">Jadwalkan Konsultasi</button>

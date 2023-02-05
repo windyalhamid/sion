@@ -48,7 +48,7 @@ const readMore = `<p>Pemekaran Jemaat Sion mulai diwacanakan&nbsp; sejak tahun 1
 `;
 const History = () => {
   return (
-    <div className="mx-auto bg-base-200 py-32 space-y-8">
+    <div className="mx-auto bg-accent py-32 space-y-8">
       <div>
         <h2 className="text-5xl font-bold text-center">Sejarah</h2>
         <Divider />

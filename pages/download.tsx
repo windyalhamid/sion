@@ -34,8 +34,8 @@ const Download = () => (
       >
         <div className="flex">
           <div className="flex-1">
-            <h2 className="text-3xl">{item.title}</h2>
-            <p>{item.description}</p>
+            <h2 className="text-3xl font-medium">{item.title}</h2>
+            <p className="font-light">{item.description}</p>
           </div>
           <div className="btn btn-primary self-center">Download</div>
         </div>
