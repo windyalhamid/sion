@@ -40,28 +40,22 @@ const data = [
   },
 ];
 
-const Warta = () => {
+const Location = () => {
   return (
-    <div className="bg-base-200 py-32 space-y-8">
+    <div className="bg-base-200 pt-32 space-y-8">
       <div>
-        <h2 className="text-5xl font-bold text-center">Warta Jemaat</h2>
+        <h2 className="text-5xl font-bold text-center">Lokasi Pelayanan</h2>
         <Divider />
       </div>
-      <div className="text-center max-w-[1024px] mx-auto">
-        <div className="grid grid-cols-3 gap-4">
-          {data.map((item) => (
-            <CardWarta
-              key={item.title}
-              title={item.title}
-              description={item.description}
-              image={item.image}
-              url={item.url}
-            />
-          ))}
-        </div>
-      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127406.632228538!2d128.05593252182013!3d-3.7099469092318977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d6ce832f3ffef93%3A0xf48470166cfe820a!2sGereja%20Nafiri%20Sion%20Ambon!5e0!3m2!1sen!2sid!4v1676130346928!5m2!1sen!2sid"
+        className="w-full h-[300px]"
+        loading="lazy"
+      ></iframe>
+
+      <div></div>
     </div>
   );
 };
 
-export default Warta;
+export default Location;

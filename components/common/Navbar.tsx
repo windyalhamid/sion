@@ -28,7 +28,13 @@ const Navbar = () => (
             <Link href="/">Beranda</Link>
           </li>
           <li>
-            <Link href="/profil">Profil</Link>
+            <Link href="/profil">Profil Jemaat</Link>
+          </li>
+          <li>
+            <Link href="/sidang">Sidang Gerejawi</Link>
+          </li>
+          <li>
+            <Link href="#">Galeri</Link>
           </li>
           <li>
             <Link href="/download">Download</Link>

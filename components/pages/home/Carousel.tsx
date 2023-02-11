@@ -1,18 +1,12 @@
-const Carousel = () => (
-  <div className="carousel rounded-box">
-    <div className="carousel-item">
-      <img src="https://picsum.photos/200" alt="Burger" />
-    </div>
-    <div className="carousel-item">
-      <img src="https://picsum.photos/200" alt="Burger" />
-    </div>
-    <div className="carousel-item">
-      <img src="https://picsum.photos/200" alt="Burger" />
-    </div>
-    <div className="carousel-item">
-      <img src="https://picsum.photos/200" alt="Burger" />
-    </div>
-  </div>
-);
+import React from "react";
+import Carousel from "nuka-carousel";
 
-export default Carousel;
+export default function Slide() {
+  return (
+    <Carousel autoplay>
+      <img src="https://picsum.photos/500/200" alt="" className="w-full" />
+      <img src="https://picsum.photos/500/200" alt="" className="w-full" />
+      <img src="https://picsum.photos/500/200" alt="" className="w-full" />
+    </Carousel>
+  );
+}

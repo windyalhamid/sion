@@ -10,7 +10,6 @@ const Hero = () => (
           Ibadah Minggu Pembukaan Persidangan ke-47 Klasis GPM Kota Ambon, dimulai pukul
           09.00 WIT di Gedung Gereja Nafiri Sion. Anda juga dapat menyaksikan secara live streaming.
         </p>
-        <button className="btn">Hubungi Kami</button>
       </div>
     </div>
   </div>
